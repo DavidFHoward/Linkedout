@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+.box {
+    outline: rgba(0, 0, 0, 0.1);
+    outline-color: rgba(0, 0, 0, 0.507);
+    outline-width: 1px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 2%;
+    box-shadow: 5px 5px 5px rgba(24, 24, 24, 0.295);
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+.box-spacer {
+    outline: rgba(0, 0, 0, 0);
+    outline-color: rgba(0, 0, 0, 0);
+    outline-width: 1px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.header {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.sub-header {
+    font-size: 16pt;
+}
+
+.darkmode {
+    color: rgb(214, 214, 214);
+    background-color: rgb(48, 48, 48);
+}
