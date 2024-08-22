@@ -2,11 +2,12 @@ import { Component, NgModule } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ToggleSwitchComponent } from './Components/toggle-switch/toggle-switch.component';
 import { CopyClipboardButtonComponent } from './Components/copy-clipboard-button/copy-clipboard-button.component';
+import { QrCodeComponent } from './Components/qr-code/qr-code.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ToggleSwitchComponent, CopyClipboardButtonComponent],
+  imports: [RouterOutlet, ToggleSwitchComponent, CopyClipboardButtonComponent, QrCodeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -20,6 +21,7 @@ export class AppComponent {
       if(this.darkmode)
       {
         document.body.classList.add("darkmode");
+        
       }
       else
       {
