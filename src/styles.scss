@@ -29,9 +29,13 @@
 }
 
 .darkmode {
-    color: rgb(214, 214, 214);
-    background-color: rgb(48, 48, 48);
+    color: rgb(230, 230, 230);
+    background-color: rgb(36, 36, 36);
     a {
         color:aqua;
+    }
+    ul {
+        color: rgb(214, 214, 214);
+        background-color: rgba(58,58,58);
     }
 }
