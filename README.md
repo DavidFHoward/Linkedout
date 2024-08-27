@@ -28,9 +28,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Current workflow
 ```
-git add <files>
+git add .
 git commit -m <message>
 git push -u origin master
-ng build --base-href "https://oliroshow.github.io/Linkedout/"
+ng build --base-href "https://davidfhoward.github.io/Linkedout/"
 npx angular-cli-ghpages --dir=dist/linkedout/browser
 ```
