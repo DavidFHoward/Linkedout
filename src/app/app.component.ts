@@ -32,5 +32,10 @@ export class AppComponent {
   copyText(text: string): void {
     navigator.clipboard.writeText(text);
   }
+
+  openPdf(): void {
+    window.open('https://davidfhoward.github.io/Linkedout/assets/UnofficialTranscriptDavidHoward.pdf', '_blank');
+    
+  }
 }
 
