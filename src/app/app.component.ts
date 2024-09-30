@@ -34,8 +34,10 @@ export class AppComponent {
   }
 
   openPdf(): void {
-    window.open('https://davidfhoward.github.io/Linkedout/assets/UnofficialTranscriptDavidHoward.pdf', '_blank');
-    
+    window.open('https://davidfhoward.github.io/Linkedout/assets/UnofficialTranscriptDavidHoward.pdf', '_blank');  
+  }
+  openPdfMft(): void {
+    window.open('https://davidfhoward.github.io/Linkedout/assets/MFTscore.pdf', '_blank');  
   }
 }
 
