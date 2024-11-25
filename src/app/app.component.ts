@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { ToggleSwitchComponent } from './Components/toggle-switch/toggle-switch.component';
 import { CopyClipboardButtonComponent } from './Components/copy-clipboard-button/copy-clipboard-button.component';
 import { QrCodeComponent } from './Components/qr-code/qr-code.component';
+import { ProjectComponent } from './project/project.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ToggleSwitchComponent, CopyClipboardButtonComponent, QrCodeComponent],
+  imports: [RouterOutlet, ToggleSwitchComponent, CopyClipboardButtonComponent, QrCodeComponent, ProjectComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
